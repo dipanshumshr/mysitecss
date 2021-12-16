@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #FEFBF3;
+}
+p{
+  line-height: 2;
+}
+h1 {
+  color: #2B2B2B;
+  margin: 50px auto 0 auto;
+  font-size: 4.5rem;
+  font-family: 'Satisfy', cursive;
+}
+
+.intro {
+  color: #2B2B2B;
+  font-size: 2rem;
+}
+.introtxt{
+  width:30%;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #2B2B2B;
+  /* FONT WEIGHT ARE USED TO CHANGE THE BOLDNESS OF THE FONT */
+  padding-bottom: 10PX;
+}
+
+h3 {
+  color: #DA0037;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+a {
+  color: #2B2B2B;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: bold;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile-pic {
+  margin: 30px auto;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.skill1 {
+  float: left;
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 30px;
+}
+
+.skill2 {
+  float: right;
+  margin-left: 20px;
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 5px;
+}
+
+.TopContainer {
+  background-color: #E4CDA7;
+  position: relative;
+  padding-top: 100px;
+}
+
+.profile-pic {
+  padding-top: 10px;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 200px;
+  top: 250px;
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.middle-container {
+  background-color: #FEFBF3;
+  margin : 100px auto;
+}
+
+.bottom-container {
+  background-color: #E2703A;
+  padding: 50px 0 20px;
+}
+hr{
+  border: dotted #04293A 6px;
+  border-bottom: 0;
+  width:30px;
+  margin: 60px auto;
+}
+.contactmsg{
+  width: 30%;
+  margin: auto;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+.btn{
+  background: #228274;
+  background-image: -webkit-linear-gradient(top, #228274, #c4bc62);
+  background-image: -moz-linear-gradient(top, #228274, #c4bc62);
+  background-image: -ms-linear-gradient(top, #228274, #c4bc62);
+  background-image: -o-linear-gradient(top, #228274, #c4bc62);
+  background-image: linear-gradient(to bottom, #228274, #c4bc62);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family:'IBM Plex Sans', sans-serif ;
+  color: #ebebeb;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
